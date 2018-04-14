@@ -1,9 +1,11 @@
 #!/bin/bash
 
+export CATALINA_BASE=/data/apache-tomcat
+
 cd /data/myproj/myproject/employees
 mvn clean install
 
-cd /data/apache-tomat/bin
+cd /data/apache-tomcat/bin
 ./shutdown.sh
 sleep 10
 cd /data/apache-tomcat/webapps

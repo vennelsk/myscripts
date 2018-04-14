@@ -1,0 +1,5 @@
+Workspace Cleanup Plugin
+CloudBees Disk Usage Simple
+Git
+Global Build Stats Plugin
+Post build task

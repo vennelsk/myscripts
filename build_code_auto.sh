@@ -17,5 +17,6 @@ jar -xf SpringHibernateExample.war
 rm SpringHibernateExample.war
 cd /data/apache-tomcat-7.0.85/bin
 ./startup.sh
+sleep 5
 #/data/myproj/myproject2/HotelReservation/target/HotelReservation-0.0.1-SNAPSHOT.war
 

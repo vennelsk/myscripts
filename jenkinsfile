@@ -1,6 +1,8 @@
 pipeline {
     agent any
+
     stages{
+
        stage('Init'){
            steps {
                echo "Testing..."
@@ -18,4 +20,5 @@ pipeline {
               echo 'Code Deloyed...'
           }
        }
-   }
+    }
+ }
